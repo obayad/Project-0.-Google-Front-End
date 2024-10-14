@@ -27,6 +27,7 @@ a{
 img{
     width: 272px;
     height: 92px;
+    margin-top: 256px;
 }
 
 main{
@@ -66,10 +67,56 @@ main{
 
 
 
+/* advance page styleing */
+
+#adv-page-m{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 8px;
+}
+
+#adv-page-m > div{
+    width: 100%;
+    color: red;
+    border-bottom: 1px solid black;
+    padding-left: 64px;
+    padding-bottom: 32px;
+    margin-bottom: 32px;
+    font-size: 36px;
+}
+
+#adv-page-m > form{
+    padding-left: 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-end;
+}
 
 
+#adv-page-m > form > div{
+    display:grid;
+    grid-template-columns: 300px auto;
+    gap: 64px;
+    align-items: center;
+}
 
+#adv-page-m > form > div > label{
+    font-size: 18px;
+}
 
+#adv-page-m > form > div > input{
+    height: 34px;
+    width: 572px;
+    border: 1px solid #cccccc;
+}
 
-
+.adv-search{
+    color:white;
+    background-color: #357ae8;
+    font-size: 18px;
+    padding: 4px 16px;
+}
 
